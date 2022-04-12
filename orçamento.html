@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/calculadora.css">
+    <title>Faça aqui seu orçamento</title>
+</head>
+
+<body>
+    <div class="linha">
+        <h1>Calculadora</h1>
+    </div>
+    <div class="container">
+        <div class="box1">
+            <h3 class="titulo">Insira as informações</h3>
+            <div class="metragem">
+                Metragem: <input class="larguraparede" type="number" name="larguraparede" id="larguraparede"
+                    placeholder="largura">
+                <input class="alturaparede" type="number" name="alturaparede" id="alturaparede" placeholder="altura">
+
+            </div>
+            <div class="portas">
+                <label for="porta">Portas: <input class="inputPorta" type="number" name="porta" id="porta"
+                        placeholder="0"></label>
+            </div>
+            <div class="portas2">
+                <input class="dadosdaporta" type="number" name="larguraporta" id="larguraporta" placeholder="largura">
+                <input class="dadosdaporta" type="number" name="alturaporta" id="alturaporta" placeholder="altura">
+            </div>
+            <div class="janelas">
+                <label for="janela">Janelas: <input class="inputjanela" type="number" name="janela" id="janela"
+                        placeholder="0"></label>
+            </div>
+            <div class="janelas2">
+                <input class="dadosdajanela" type="number" name="largurajanela" id="largurajanela"
+                    placeholder="largura">
+                <input class="dadosdajanela" type="number" name="alturajanela" id="alturajanela" placeholder="altura">
+            </div>
+            <button class="btncal" id="btncal">Calcular</button>
+        </div>
+
+        <div class="caixaDeResposta">
+            <h3>O seu orçamento sairá aqui: </h3>
+            <div class="box2" id="box2">
+
+            </div>
+
+
+
+
+
+        </div>
+
+        <img class="equal" src="./img/equal2.png" alt="igual">
+    </div>
+   <a href="./index.html">Home</a>
+
+
+    <script src="./js/calculadora.js">
+    </script>
+</body>
+
+</html>

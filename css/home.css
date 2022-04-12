@@ -1,0 +1,95 @@
+*{
+padding:0px;
+margin: 0px;
+}
+
+
+
+body{ 
+    background-image: url(../img/vizinhança3.jpg); 
+    height: 100%; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    
+}
+
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 493pt; /* 493pt; */
+    background-color: rgb(37, 2, 11);
+    border-right: 2px solid red;
+    border-left: 2px solid red;
+    color: white;
+   
+    
+
+}
+.titulo{
+    text-align: center;
+    background-color: rgb(84, 48, 97);
+    border-bottom: 1px solid white;
+    font-family: 'Rubik Moonrocks', cursive;
+    text-shadow: 3px 5px white;
+    color: black;
+}
+.nome{
+    margin-top: 60px;
+    font-weight: bold;
+    margin-left: 30px;
+    
+}
+input{
+    margin-left: 20px;
+}
+
+.numero{
+    margin-top: 50px;
+    font-weight: bold;
+    margin-left: 30px;
+
+}
+.inputN{
+    margin-left: 6.7px;
+}
+.email{
+    margin-top: 50px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.inputE{
+    margin-left: 16px;
+}
+button{
+    margin-top: 120px;
+    margin-left: 140px;
+    height: 70pt;
+    font-size: 25pt;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    border-color: white;
+    width: 60%;
+    cursor:pointer;
+
+ 
+}
+button:hover{
+    background-color: gold;
+    transition: 0.7;
+  opacity: 0.8;
+}
+#icon{
+    position: absolute;
+    left: 800px;
+    top: 259px;
+}
+.link{
+    margin: 100px 0px 100px 180px;
+}
+a{
+    font-size: 15pt;
+    color: white;
+}
